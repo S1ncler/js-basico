@@ -1,0 +1,6 @@
+let div = document.body.querySelector(".div2")
+let p = document.body.querySelector("p")
+let h2 = document.body.querySelector("h2")
+console.log(div)
+console.log(p)
+console.log(h2)
