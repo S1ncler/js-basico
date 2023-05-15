@@ -9,6 +9,10 @@ function organizar(lista) {
                 lista[parseInt(j) + 1] = lista[j]
                 lista[j] = carry
             }
+            if (lista[j] == lista[parseInt(j) + 1]) {
+                console.log(lista[j], lista[parseInt(j) + 1])
+                lista.splice(j, 1)
+            }
         }
     }
     return lista
